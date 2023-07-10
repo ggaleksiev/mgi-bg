@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+article {
+    margin: 0.8vh;
+    padding: 10px;
+    border-radius: 15px;
+    background: #1C1B26;
+}
+
+article.content-article img,
+article.content-article p {
+    display: inline-block;
+}
+
+article.image-wrapper {
+    width: 40%;
+}
+
+article.content-article img {
+    width: 100%;
+    border-radius: 8px;
+    border: 3px solid black;
+}
+
+article.content-article p {
+    background: transparent;
+}

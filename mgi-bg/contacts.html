@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mgi-bg</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo-link"><img class="logo" src="img/logo.jpg" alt="logo"></a>
+            <ul class="nav_links">
+                <li><a href="index.html">Начало</a></li>
+                <li><a href="contacts.html">Контакти</a></li>
+                <li><a href="gellery.html">Галерия</a></li>
+            </ul>
+            <button class="nav-button" onclick="alert('Coming Soon!')">Youtube</button>
+        </nav>
+    </header>
+    <main>
+        <section class="main-content">
+            <h1>Контакти</h1>
+            <p>За всякакви въпроси и запитвания, моля, свържете се с нас посредством формата за контакт или използвайте
+                посочените контактни данни.</p>
+            <div class="contact-form">
+                <form>
+                    <label for="name">Име:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Имейл:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Съобщение:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    <button type="submit">Изпрати</button>
+                </form>
+            </div>
+            <div class="contact-details">
+                <h2>Контактни данни</h2>
+                <ul>
+                    <li><strong>Телефон:</strong> +359 123456789</li>
+                    <li><strong>Имейл:</strong> info@example.com</li>
+                    <li><strong>Адрес:</strong> ул. Примерна 123, 1000 София, България</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

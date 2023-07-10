@@ -1,0 +1,13 @@
+.gallery {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.gallery img {
+    max-width: 200px;
+    margin: 10px;
+    border-radius: 5px;
+    vertical-align: middle;
+    border: 3px solid black;
+}
